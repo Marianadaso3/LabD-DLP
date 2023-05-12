@@ -66,7 +66,7 @@ def encontrar_simbolo(simbolo,infixVar):
 
 if __name__ == "__main__": 
     y = Yalex()  # Se crea una instancia de la clase Yalex
-    y.leerYalex('ArchivosYalex/slr-3.yal', True)  # Se lee un archivo yalex y se carga en la instancia de Yalex
+    y.leerYalex('ArchivosYalex/slr-4.yal', True)  # Se lee un archivo yalex y se carga en la instancia de Yalex
     #print(y.infix)
     #print (y.specialtoks)
     print("Infix:\n", ''.join(y.conversionspecialtoks(y.infix)))
