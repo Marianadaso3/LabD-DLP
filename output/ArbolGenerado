@@ -1,0 +1,199 @@
+digraph {
+	<arbol.Nodo object at 0x01986D10> [label="|"]
+	<arbol.Nodo object at 0x01986D10> -> <arbol.Nodo object at 0x01986DF0>
+	<arbol.Nodo object at 0x01986DF0> [label="|"]
+	<arbol.Nodo object at 0x01986DF0> -> <arbol.Nodo object at 0x01986E70>
+	<arbol.Nodo object at 0x01986E70> [label="|"]
+	<arbol.Nodo object at 0x01986E70> -> <arbol.Nodo object at 0x01986EF0>
+	<arbol.Nodo object at 0x01986EF0> [label="|"]
+	<arbol.Nodo object at 0x01986EF0> -> <arbol.Nodo object at 0x01986F70>
+	<arbol.Nodo object at 0x01986F70> [label="|"]
+	<arbol.Nodo object at 0x01986F70> -> <arbol.Nodo object at 0x01986F90>
+	<arbol.Nodo object at 0x01986F90> [label="•"]
+	<arbol.Nodo object at 0x01986F90> -> <arbol.Nodo object at 0x01986FD0>
+	<arbol.Nodo object at 0x01986FD0> [label="•"]
+	<arbol.Nodo object at 0x01986FD0> -> <arbol.Nodo object at 0x01986FF0>
+	<arbol.Nodo object at 0x01986FF0> [label="?"]
+	<arbol.Nodo object at 0x01986FF0> -> <arbol.Nodo object at 0x01986D50>
+	<arbol.Nodo object at 0x01986D50> [label="•"]
+	<arbol.Nodo object at 0x01986D50> -> <arbol.Nodo object at 0x01987310>
+	<arbol.Nodo object at 0x01987310> [label="•"]
+	<arbol.Nodo object at 0x01987310> -> <arbol.Nodo object at 0x01987330>
+	<arbol.Nodo object at 0x01987330> [label="?"]
+	<arbol.Nodo object at 0x01987330> -> <arbol.Nodo object at 0x01987350>
+	<arbol.Nodo object at 0x01987350> [label="•"]
+	<arbol.Nodo object at 0x01987350> -> <arbol.Nodo object at 0x01987610>
+	<arbol.Nodo object at 0x01987610> [label="+"]
+	<arbol.Nodo object at 0x01987610> -> <arbol.Nodo object at 0x019878D0>
+	<arbol.Nodo object at 0x019878D0> [label="•"]
+	<arbol.Nodo object at 0x019878D0> -> <arbol.Nodo object at 0x01987910>
+	<arbol.Nodo object at 0x01987910> [label="+"]
+	<arbol.Nodo object at 0x01987910> -> <arbol.Nodo object at 0x01987930>
+	<arbol.Nodo object at 0x01987930> [label="|"]
+	<arbol.Nodo object at 0x01987930> -> <arbol.Nodo object at 0x01987970>
+	<arbol.Nodo object at 0x01987970> [label="|"]
+	<arbol.Nodo object at 0x01987970> -> <arbol.Nodo object at 0x01987AF0>
+	<arbol.Nodo object at 0x01987AF0> [label="\s"]
+	<arbol.Nodo object at 0x01987970> -> <arbol.Nodo object at 0x019879B0>
+	<arbol.Nodo object at 0x019879B0> [label="\t"]
+	<arbol.Nodo object at 0x01987930> -> <arbol.Nodo object at 0x01987950>
+	<arbol.Nodo object at 0x01987950> [label="\n"]
+	<arbol.Nodo object at 0x019878D0> -> <arbol.Nodo object at 0x019878F0>
+	<arbol.Nodo object at 0x019878F0> [label=WHITESPACE]
+	<arbol.Nodo object at 0x01987610> -> <arbol.Nodo object at 0x01987630>
+	<arbol.Nodo object at 0x01987630> [label="|"]
+	<arbol.Nodo object at 0x01987630> -> <arbol.Nodo object at 0x01987690>
+	<arbol.Nodo object at 0x01987690> [label="|"]
+	<arbol.Nodo object at 0x01987690> -> <arbol.Nodo object at 0x019876F0>
+	<arbol.Nodo object at 0x019876F0> [label="|"]
+	<arbol.Nodo object at 0x019876F0> -> <arbol.Nodo object at 0x01987730>
+	<arbol.Nodo object at 0x01987730> [label="|"]
+	<arbol.Nodo object at 0x01987730> -> <arbol.Nodo object at 0x01987770>
+	<arbol.Nodo object at 0x01987770> [label="|"]
+	<arbol.Nodo object at 0x01987770> -> <arbol.Nodo object at 0x019877B0>
+	<arbol.Nodo object at 0x019877B0> [label="|"]
+	<arbol.Nodo object at 0x019877B0> -> <arbol.Nodo object at 0x019877F0>
+	<arbol.Nodo object at 0x019877F0> [label="|"]
+	<arbol.Nodo object at 0x019877F0> -> <arbol.Nodo object at 0x01987830>
+	<arbol.Nodo object at 0x01987830> [label="|"]
+	<arbol.Nodo object at 0x01987830> -> <arbol.Nodo object at 0x01987870>
+	<arbol.Nodo object at 0x01987870> [label="|"]
+	<arbol.Nodo object at 0x01987870> -> <arbol.Nodo object at 0x019878B0>
+	<arbol.Nodo object at 0x019878B0> [label=0]
+	<arbol.Nodo object at 0x01987870> -> <arbol.Nodo object at 0x01987890>
+	<arbol.Nodo object at 0x01987890> [label=1]
+	<arbol.Nodo object at 0x01987830> -> <arbol.Nodo object at 0x01987850>
+	<arbol.Nodo object at 0x01987850> [label=2]
+	<arbol.Nodo object at 0x019877F0> -> <arbol.Nodo object at 0x01987810>
+	<arbol.Nodo object at 0x01987810> [label=3]
+	<arbol.Nodo object at 0x019877B0> -> <arbol.Nodo object at 0x019877D0>
+	<arbol.Nodo object at 0x019877D0> [label=4]
+	<arbol.Nodo object at 0x01987770> -> <arbol.Nodo object at 0x01987790>
+	<arbol.Nodo object at 0x01987790> [label=5]
+	<arbol.Nodo object at 0x01987730> -> <arbol.Nodo object at 0x01987750>
+	<arbol.Nodo object at 0x01987750> [label=6]
+	<arbol.Nodo object at 0x019876F0> -> <arbol.Nodo object at 0x01987710>
+	<arbol.Nodo object at 0x01987710> [label=7]
+	<arbol.Nodo object at 0x01987690> -> <arbol.Nodo object at 0x019876D0>
+	<arbol.Nodo object at 0x019876D0> [label=8]
+	<arbol.Nodo object at 0x01987630> -> <arbol.Nodo object at 0x01987650>
+	<arbol.Nodo object at 0x01987650> [label=9]
+	<arbol.Nodo object at 0x01987350> -> <arbol.Nodo object at 0x01987370>
+	<arbol.Nodo object at 0x01987370> [label="+"]
+	<arbol.Nodo object at 0x01987370> -> <arbol.Nodo object at 0x019875F0>
+	<arbol.Nodo object at 0x019875F0> [label="."]
+	<arbol.Nodo object at 0x01987370> -> <arbol.Nodo object at 0x01987390>
+	<arbol.Nodo object at 0x01987390> [label="|"]
+	<arbol.Nodo object at 0x01987390> -> <arbol.Nodo object at 0x019873D0>
+	<arbol.Nodo object at 0x019873D0> [label="|"]
+	<arbol.Nodo object at 0x019873D0> -> <arbol.Nodo object at 0x01987410>
+	<arbol.Nodo object at 0x01987410> [label="|"]
+	<arbol.Nodo object at 0x01987410> -> <arbol.Nodo object at 0x01987450>
+	<arbol.Nodo object at 0x01987450> [label="|"]
+	<arbol.Nodo object at 0x01987450> -> <arbol.Nodo object at 0x01987490>
+	<arbol.Nodo object at 0x01987490> [label="|"]
+	<arbol.Nodo object at 0x01987490> -> <arbol.Nodo object at 0x019874D0>
+	<arbol.Nodo object at 0x019874D0> [label="|"]
+	<arbol.Nodo object at 0x019874D0> -> <arbol.Nodo object at 0x01987510>
+	<arbol.Nodo object at 0x01987510> [label="|"]
+	<arbol.Nodo object at 0x01987510> -> <arbol.Nodo object at 0x01987550>
+	<arbol.Nodo object at 0x01987550> [label="|"]
+	<arbol.Nodo object at 0x01987550> -> <arbol.Nodo object at 0x01987590>
+	<arbol.Nodo object at 0x01987590> [label="|"]
+	<arbol.Nodo object at 0x01987590> -> <arbol.Nodo object at 0x019875D0>
+	<arbol.Nodo object at 0x019875D0> [label=0]
+	<arbol.Nodo object at 0x01987590> -> <arbol.Nodo object at 0x019875B0>
+	<arbol.Nodo object at 0x019875B0> [label=1]
+	<arbol.Nodo object at 0x01987550> -> <arbol.Nodo object at 0x01987570>
+	<arbol.Nodo object at 0x01987570> [label=2]
+	<arbol.Nodo object at 0x01987510> -> <arbol.Nodo object at 0x01987530>
+	<arbol.Nodo object at 0x01987530> [label=3]
+	<arbol.Nodo object at 0x019874D0> -> <arbol.Nodo object at 0x019874F0>
+	<arbol.Nodo object at 0x019874F0> [label=4]
+	<arbol.Nodo object at 0x01987490> -> <arbol.Nodo object at 0x019874B0>
+	<arbol.Nodo object at 0x019874B0> [label=5]
+	<arbol.Nodo object at 0x01987450> -> <arbol.Nodo object at 0x01987470>
+	<arbol.Nodo object at 0x01987470> [label=6]
+	<arbol.Nodo object at 0x01987410> -> <arbol.Nodo object at 0x01987430>
+	<arbol.Nodo object at 0x01987430> [label=7]
+	<arbol.Nodo object at 0x019873D0> -> <arbol.Nodo object at 0x019873F0>
+	<arbol.Nodo object at 0x019873F0> [label=8]
+	<arbol.Nodo object at 0x01987390> -> <arbol.Nodo object at 0x019873B0>
+	<arbol.Nodo object at 0x019873B0> [label=9]
+	<arbol.Nodo object at 0x01986D50> -> <arbol.Nodo object at 0x01986D30>
+	<arbol.Nodo object at 0x01986D30> [label="+"]
+	<arbol.Nodo object at 0x01986D30> -> <arbol.Nodo object at 0x01987270>
+	<arbol.Nodo object at 0x01987270> [label="?"]
+	<arbol.Nodo object at 0x01987270> -> <arbol.Nodo object at 0x019872F0>
+	<arbol.Nodo object at 0x019872F0> [label="'E'"]
+	<arbol.Nodo object at 0x01987270> -> <arbol.Nodo object at 0x01987290>
+	<arbol.Nodo object at 0x01987290> [label="|"]
+	<arbol.Nodo object at 0x01987290> -> <arbol.Nodo object at 0x019872D0>
+	<arbol.Nodo object at 0x019872D0> [label="'+'"]
+	<arbol.Nodo object at 0x01987290> -> <arbol.Nodo object at 0x019872B0>
+	<arbol.Nodo object at 0x019872B0> [label="'-'"]
+	<arbol.Nodo object at 0x01986D30> -> <arbol.Nodo object at 0x01986110>
+	<arbol.Nodo object at 0x01986110> [label="|"]
+	<arbol.Nodo object at 0x01986110> -> <arbol.Nodo object at 0x01987050>
+	<arbol.Nodo object at 0x01987050> [label="|"]
+	<arbol.Nodo object at 0x01987050> -> <arbol.Nodo object at 0x01987090>
+	<arbol.Nodo object at 0x01987090> [label="|"]
+	<arbol.Nodo object at 0x01987090> -> <arbol.Nodo object at 0x019870D0>
+	<arbol.Nodo object at 0x019870D0> [label="|"]
+	<arbol.Nodo object at 0x019870D0> -> <arbol.Nodo object at 0x01987110>
+	<arbol.Nodo object at 0x01987110> [label="|"]
+	<arbol.Nodo object at 0x01987110> -> <arbol.Nodo object at 0x01987150>
+	<arbol.Nodo object at 0x01987150> [label="|"]
+	<arbol.Nodo object at 0x01987150> -> <arbol.Nodo object at 0x01987190>
+	<arbol.Nodo object at 0x01987190> [label="|"]
+	<arbol.Nodo object at 0x01987190> -> <arbol.Nodo object at 0x019871D0>
+	<arbol.Nodo object at 0x019871D0> [label="|"]
+	<arbol.Nodo object at 0x019871D0> -> <arbol.Nodo object at 0x01987210>
+	<arbol.Nodo object at 0x01987210> [label="|"]
+	<arbol.Nodo object at 0x01987210> -> <arbol.Nodo object at 0x01987250>
+	<arbol.Nodo object at 0x01987250> [label=0]
+	<arbol.Nodo object at 0x01987210> -> <arbol.Nodo object at 0x01987230>
+	<arbol.Nodo object at 0x01987230> [label=1]
+	<arbol.Nodo object at 0x019871D0> -> <arbol.Nodo object at 0x019871F0>
+	<arbol.Nodo object at 0x019871F0> [label=2]
+	<arbol.Nodo object at 0x01987190> -> <arbol.Nodo object at 0x019871B0>
+	<arbol.Nodo object at 0x019871B0> [label=3]
+	<arbol.Nodo object at 0x01987150> -> <arbol.Nodo object at 0x01987170>
+	<arbol.Nodo object at 0x01987170> [label=4]
+	<arbol.Nodo object at 0x01987110> -> <arbol.Nodo object at 0x01987130>
+	<arbol.Nodo object at 0x01987130> [label=5]
+	<arbol.Nodo object at 0x019870D0> -> <arbol.Nodo object at 0x019870F0>
+	<arbol.Nodo object at 0x019870F0> [label=6]
+	<arbol.Nodo object at 0x01987090> -> <arbol.Nodo object at 0x019870B0>
+	<arbol.Nodo object at 0x019870B0> [label=7]
+	<arbol.Nodo object at 0x01987050> -> <arbol.Nodo object at 0x01987070>
+	<arbol.Nodo object at 0x01987070> [label=8]
+	<arbol.Nodo object at 0x01986110> -> <arbol.Nodo object at 0x01987030>
+	<arbol.Nodo object at 0x01987030> [label=9]
+	<arbol.Nodo object at 0x01986F90> -> <arbol.Nodo object at 0x01986FB0>
+	<arbol.Nodo object at 0x01986FB0> [label=NUMBER]
+	<arbol.Nodo object at 0x01986EF0> -> <arbol.Nodo object at 0x01986F10>
+	<arbol.Nodo object at 0x01986F10> [label="•"]
+	<arbol.Nodo object at 0x01986F10> -> <arbol.Nodo object at 0x01986F50>
+	<arbol.Nodo object at 0x01986F50> [label="'+'"]
+	<arbol.Nodo object at 0x01986F10> -> <arbol.Nodo object at 0x01986F30>
+	<arbol.Nodo object at 0x01986F30> [label=PLUS]
+	<arbol.Nodo object at 0x01986E70> -> <arbol.Nodo object at 0x01986E90>
+	<arbol.Nodo object at 0x01986E90> [label="•"]
+	<arbol.Nodo object at 0x01986E90> -> <arbol.Nodo object at 0x01986ED0>
+	<arbol.Nodo object at 0x01986ED0> [label="'*'"]
+	<arbol.Nodo object at 0x01986E90> -> <arbol.Nodo object at 0x01986EB0>
+	<arbol.Nodo object at 0x01986EB0> [label=TIMES]
+	<arbol.Nodo object at 0x01986DF0> -> <arbol.Nodo object at 0x01986E10>
+	<arbol.Nodo object at 0x01986E10> [label="•"]
+	<arbol.Nodo object at 0x01986E10> -> <arbol.Nodo object at 0x01986E50>
+	<arbol.Nodo object at 0x01986E50> [label="'('"]
+	<arbol.Nodo object at 0x01986E10> -> <arbol.Nodo object at 0x01986E30>
+	<arbol.Nodo object at 0x01986E30> [label=LPAREN]
+	<arbol.Nodo object at 0x01986D10> -> <arbol.Nodo object at 0x01986D90>
+	<arbol.Nodo object at 0x01986D90> [label="•"]
+	<arbol.Nodo object at 0x01986D90> -> <arbol.Nodo object at 0x01986DD0>
+	<arbol.Nodo object at 0x01986DD0> [label="')'"]
+	<arbol.Nodo object at 0x01986D90> -> <arbol.Nodo object at 0x01986DB0>
+	<arbol.Nodo object at 0x01986DB0> [label=RPAREN]
+}
