@@ -36,30 +36,10 @@ def encontrar_simbolo(simbolo,infixVar):
             return MINUS
         elif simbolo == "/":
             return DIV
-        elif simbolo == ":":
-            return COLON
-        elif simbolo == '"':
-            return QUOTE
-        elif simbolo == "#":
-            return LEFTCOMMENT
-        elif simbolo == "\n" or simbolo == "\r":
-            return RIGHTCOMMENT
-        elif simbolo.isalpha() and simbolo.isupper():
-            return TOKEN
         elif simbolo == "|":
             return OR
         elif simbolo == ".":
             return IGNORE
-        elif simbolo.isalpha() and simbolo.islower():
-            return WORDMIN
-        elif simbolo.isalpha():
-            return WORDMAY
-        elif simbolo == "\b":
-            return SPLIT
-        elif simbolo == ":":
-            return TWOPOINTS
-        elif simbolo == "  ":
-            return FINISHDECLARATION
         else:
             return ERROR
     return ERROR
