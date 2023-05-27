@@ -1,32 +1,4 @@
-#Autor: Mariana David
 
-#Importaciones
-from yalex import *  
-from utils import *
-
-
-if __name__ == "__main__": 
- # Se crea una instancia de la clase Yalex
-    y = Yalex()
-    
-    # Se lee un archivo yalex y se carga en la instancia de Yalex
-    y.leerYalex('ArchivosYalex/slr-1.yal')
-
-    # Yalex genera un diccionario de tokens (identificadores) con su respectiva expresion regular
-    # Estos tokens se convierten en un string que representa un diccionario,
-    # esto para poderlo formatear luego en nuestro programa a generar
-    this_tokens = ""
-
-    # Se itera sobre los items del diccionario 'tokens' en la instancia de Yalex
-    for k, v in y.tokens.items():
-        # Se agrega al string 'this_tokens' cada token con su expresión regular correspondiente
-        this_tokens += "\"" + k + "\":" + repr(v['expresion']) + ",\n   "
-
-    # Se imprime el resultado final que contiene el diccionario de tokens en formato de string
-    print(this_tokens)
-
-    # Formato del programa a producir, usa solamente como entrada el diccionario de tokens que se acaba de generar
-    program_to_produce = """
 # This Python file uses the following encoding: utf-8
 
 # Importamos el automata
@@ -36,7 +8,13 @@ import draw
 
 # Extraemos los tokens
 tks = {
-    """ + r"{}".format(this_tokens) + """}
+    "WHITESPACE":'˂\\s°\\t°\\n˃♦',
+   "ID":'˂A°B°C°D°E°F°G°H°I°J°K°L°M°N°O°P°Q°R°S°T°U°V°W°X°Y°Z°a°b°c°d°e°f°g°h°i°j°k°l°m°n°o°p°q°r°s°t°u°v°w°x°y°z˃˂˂A°B°C°D°E°F°G°H°I°J°K°L°M°N°O°P°Q°R°S°T°U°V°W°X°Y°Z°a°b°c°d°e°f°g°h°i°j°k°l°m°n°o°p°q°r°s°t°u°v°w°x°y°z˃°˂0°1°2°3°4°5°6°7°8°9˃˃♣',
+   "PLUS":'+',
+   "TIMES":'*',
+   "LPAREN":'(',
+   "RPAREN":')',
+   }
 chars = []
 
 # Extraemos todos los posibles caracteres de la gramatica Ej. (a, b, c, 1, 2, 3, =, +, etc)
@@ -92,7 +70,3 @@ while actual_pos < len(text_to_scan):
         if res != "":
             print(" -", repr(res).strip(), "es un simbolo NO es reconocido")
 
-"""
-    f = open(f"test.py", "w", encoding="utf-8")
-    f.write(program_to_produce)
-    f.close
