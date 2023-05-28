@@ -13,5 +13,7 @@
  ↑ fin de expresion regular nos ayuda a conseguir los estados de aceptacion
  
  ► concatenacion explicita para operadores ? y otros simbolos especiales
+ 
+ ----------------------------------------------------------------------
 
 Link ejecución:
